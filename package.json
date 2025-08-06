@@ -1,6 +1,6 @@
 {
   "name": "react-native-eco-upload-video",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ECO视频分片上传",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
