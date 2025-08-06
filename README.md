@@ -1,3 +1,10 @@
+<!--
+ * @Author: 星光 1558471295@qq.com
+ * @Date: 2025-08-05 15:27:11
+ * @FilePath: \react-native-eco-upload-video\README.md
+ * @Description: 
+ * Copyright (c) 2025 by 星光, All Rights Reserved. 
+-->
 # react-native-eco-upload-video
 
 ECO视频分片上传
@@ -14,12 +21,11 @@ npm install react-native-eco-upload-video
 
 
 ```js
-import { multiply } from 'react-native-eco-upload-video';
+ import { uploadVideoWithUrl } from 'react-native-eco-upload-video';
 
 // ...
-
-const result = multiply(3, 7);
 ```
+通过来分片上传uploadVideoWithUrl视频到到服务器
 
 
 ## Contributing
