@@ -177,12 +177,11 @@ class EcoUploadVideoModule(reactContext: ReactApplicationContext) :
                              deleteLittleList()
                              promise.resolve(url)
                          } else if (obj?.optString("ResultCode") == "8001") {
-                             deleteLittleList()
-                             promise.resolve("")
-                         } else {
                              if (littleFileCount > fileNum + 1) {
                                  uploadFile(fileNum + 1, url, fileInfoType, promise)
                              }
+                         }else{
+                             promise.reject("UPLOAD_FAILED","接口错误")
                          }
                      } else {
                          deleteLittleList()
