@@ -50,7 +50,6 @@
     "type": "git",
     "url": "git+https://github.com/zkdream/react-native-eco-upload-video"
   },
-  "private": false,
   "author": "星光 <1558471295@qq.com> (https://github.com/zkdream)",
   "license": "MIT",
   "bugs": {
